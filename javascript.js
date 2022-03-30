@@ -1,0 +1,1 @@
+var headlineTwo = 'New Headline'; 
