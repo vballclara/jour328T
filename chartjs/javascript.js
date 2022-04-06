@@ -11,5 +11,13 @@ var myChart = new Chart(ctx, {
                   '#ff0800'
                 ]
         }]
+    },
+    options: {
+           responsive: true,
+           scales: {
+                 y: {
+                  beginAtZero: true
+              }
+           }
     }
 });
