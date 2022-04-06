@@ -10,14 +10,35 @@ var myChart = new Chart(ctx, {
                 backgroundColor: [
                   '#ff0800'
                 ]
-        }]
+        },
+        {
+          label: '# of Oranges',
+          data: [22, 10, 23, 6, 22, 13],
+          backgroundColor: [
+            '#ffa500'
+          ]
+        }
+    ]
     },
     options: {
            responsive: true,
+           plugins: {
+             title: {
+               display: true,
+               text: 'Apples and Oranges by year',
+               font: {
+                 size: 18
+               }
+             },
+             subtitle: {
+               display: true,
+               text: 'For all but one year, oranges outnumbered apples.'
+             }
+           },
            scales: {
                  y: {
-                  beginAtZero: true
+                  beginAtZero: true,
               }
-           }
-    }
+           },
+    },
 });
