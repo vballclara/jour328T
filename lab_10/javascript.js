@@ -7,16 +7,9 @@ var myChart = new Chart(ctx, {
             label: 'Average of GDP per Capita',
             data: [18791.13, 14480.3, 20818.45, 13856, 2505.17, 2569],
             backgroundColor: [
-                '#ff0800'
+                '#607d3b'
             ]
         },
-        {
-            label: '# of Oranges',
-            data: [22, 10, 23, 6, 22, 13],
-            backgroundColor: [
-                '#FFA500'
-            ],
-        }
     ]
     },
     options: {
@@ -24,14 +17,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Apples and Oranges by year',
+                text: 'Average GDP per Capita',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'For all but one year, oranges outnumbered apples'
+                text: 'Europe and Central Asia have the highest average GDP per capita.'
             }
         },
         scales: {
