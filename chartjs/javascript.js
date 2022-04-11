@@ -1,27 +1,29 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 
 var myChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'line',
     data: {
-        labels: ['2015', '2016', '2017', '2018', '2019', '2020'],
+        labels: ['1800', '1825', '1850','1875', '1900', '1925', '1950', '1975', '2000'],
         datasets: [{
-                label: '# of Apples',
-                data: [12, 19, 3, 5, 2, 3],
-                backgroundColor: [
-                  '#ff0800'
-                ]
+                label: 'China',
+                data: [32, 32, 32, 31.96, 31.75, 31.55, 40.73, 63.26, 70.03],
+                fill: false,
+                backgroundColor: 'r#00b159',
+                borderColor: 'r#00b159'
         },
         {
           label: '# of Oranges',
           data: [22, 10, 23, 6, 22, 13],
-          backgroundColor: [
-            '#ffa500'
-          ]
+          fill: true,
+          borderColor: 'rgba(255, 165, 0)',
+          backgroundColor: 'rgba(255, 165, 0, 0.1)',
+          tension: 0.1}
         }
     ]
     },
     options: {
            responsive: true,
+           indexAxis: 'y',
            plugins: {
              title: {
                display: true,
@@ -38,7 +40,7 @@ var myChart = new Chart(ctx, {
            scales: {
                  y: {
                   beginAtZero: true,
-              }
+              },
            },
     },
 });
