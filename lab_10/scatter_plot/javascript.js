@@ -7,7 +7,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                   {x: 71.5, y: 3678},
                 ],
                 label: "China",
-                borderColor: "#3005F73",
+                borderColor: "#005F73",
                 backgroundColor: "rgb(0, 95, 115, 0.1)",
                 borderWidth:2,
 
