@@ -85,13 +85,13 @@ var ctx = document.getElementById('myChart').getContext('2d');
               y: {
                 title: {
                   display: true,
-                  text: 'Y axis title'
+                  text: 'Life expectancy'
                 }
               },
               x: {
                   title: {
                       display: true,
-                      text: 'X axis title'
+                      text: 'Average GDP'
                   }
               }
             }
