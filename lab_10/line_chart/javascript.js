@@ -46,14 +46,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Apples and Oranges by year',
+                text: 'Life expectancy in the largest countries',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'For all but one year, oranges outnumbered apples'
+                text: 'Between 1800 and 2000, the United States had the highest life expectancy out of the five countries. China, Brazil and Indonesia were all very close until 1925, where Brazil claimed higher life expectancy. India has remained with the lowest life expectancy over the course of 200 years.'
             }
         },
         scales: {
