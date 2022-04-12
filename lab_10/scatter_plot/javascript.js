@@ -81,6 +81,21 @@ var ctx = document.getElementById('myChart').getContext('2d');
             ]
           },
           options: {
+            responsive: true,
+            indexAxis: 'y',
+            plugins: {
+            title: {
+                display: true,
+                text: 'Life expectancy and average GDP',
+                font: {
+                    size: 18
+                }
+            },
+            subtitle: {
+                display: true,
+                text: 'There is a loose positive relationship between average GDP in a country and life expectancy. Countries with higher GDPs, like the United States, have a higher life expectancy.'
+            }
+        },
             scales: {
               y: {
                 title: {
