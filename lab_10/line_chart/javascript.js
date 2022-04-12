@@ -39,8 +39,6 @@ var myChart = new Chart(ctx, {
             borderColor: 'rgba(255, 8, 0)',
             backgroundColor: 'rgba(255, 165, 0, 0.1)',
             tension: 0.1},
-        }
-        }
         ]
     },
     options: {
