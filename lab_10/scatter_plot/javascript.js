@@ -29,6 +29,55 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
 
+              }, {
+                data: [
+                {x: 68.3, y: 5878},
+                ],
+                label: "Indonesia",
+                borderColor: "#ffa500",
+                backgroundColor:"rgb(255,165,0,0.1)",
+                borderWidth:2,
+              }, {
+                data: [
+                {x: 71.9, y: 11461},
+                ],
+                label: "Brazil",
+                borderColor: "#ffa500",
+                backgroundColor:"rgb(255,165,0,0.1)",
+                borderWidth:2,
+              }, {
+                data: [
+                {x: 65.4, y: 13173},
+                ],
+                label: "Russia",
+                borderColor: "#ffa500",
+                backgroundColor:"rgb(255,165,0,0.1)",
+                borderWidth:2,
+              }, {
+                data: [
+                {x: 62.6, y: 3366},
+                ],
+                label: "Pakistan",
+                borderColor: "#ffa500",
+                backgroundColor:"rgb(255,165,0,0.1)",
+                borderWidth:2,
+              }, {
+                data: [
+                {x: 65.8, y: 1632},
+                ],
+                label: "Bangladesh",
+                label: "Pakistan",
+                borderColor: "#ffa500",
+                backgroundColor:"rgb(255,165,0,0.1)",
+                borderWidth:2,
+              }, {
+                data: [
+                {x: 81.1, y: 32193},
+                ],
+                label: "Japan",
+                borderColor: "#ffa500",
+                backgroundColor:"rgb(255,165,0,0.1)",
+                borderWidth:2,
               }
             ]
           },
