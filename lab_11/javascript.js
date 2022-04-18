@@ -7,7 +7,7 @@ var myChart = new Chart(ctx, {
             label: 'Juveniles ',
             data: [755, 959, 922, 683, 756, 798],
             backgroundColor: [
-                '#ff0800'
+                '#1c2e4a'
             ]
         },
 
@@ -25,7 +25,7 @@ var myChart = new Chart(ctx, {
             },
             subtitle: {
                 display: true,
-                text: 'For all but one year, oranges outnumbered apples'
+                text: 'The amount of juveniles charged as adults in Maryland dropped by just over 200 individuals between 2017 and 2018. But since then, numbers have been on the rise. In 2020, 798 juveniles were charged as adults.'
             }
         },
         scales: {
