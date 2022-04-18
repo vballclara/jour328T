@@ -25,7 +25,7 @@ var myChart = new Chart(ctx, {
             },
             subtitle: {
                 display: true,
-                text: 'The amount of juveniles charged as adults in Maryland dropped by just over 200 individuals between 2017 and 2018. But since then, numbers have been on the rise. In 2020, 798 juveniles were charged as adults.'
+                text: 'The amount of juveniles charged as adults in Maryland began dropping in 2016. But after 2018, numbers have been on the rise. In 2020, 798 juveniles were charged as adults while less than 700 juveniles were charged as adults in 2018.'
             }
         },
         scales: {
