@@ -74,14 +74,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Apples and Oranges by year',
+                text: 'Juveniles charged as adults by age',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'For all but one year, oranges outnumbered apples'
+                text: 'Juveniles in the state of Maryland that are 16 and 17 are more likely to be charged as adults. However, juveniles as young as eight have also been charged. In 2016, four 8-year-olds were charged as adults. But since then, the youngest charged were at least 10.'
             }
         },
         scales: {
