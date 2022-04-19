@@ -8,7 +8,7 @@ var myChart = new Chart(ctx, {
             label: '8-year-olds',
             data: [1, 4, 0, 0, 0, 0],
             fill: true,
-            borderColor: 'rgba(255, 165, 0)',
+            borderColor: 'rgba(255,0,0)',
             tension: 0.1},
         {
             label: '9-year-olds',
